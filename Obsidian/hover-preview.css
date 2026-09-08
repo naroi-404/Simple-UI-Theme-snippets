@@ -1,0 +1,45 @@
+/* EDIT INFO - this snippet also works in canvas so it blockes file from fully opening, i will try to work on that :') */
+
+.markdown-embed {
+    max-height: 150px; /* how much should be visible  */
+    overflow: hidden;   
+}
+
+.markdown-embed-content {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.markdown-embed {
+    position: relative;
+}
+
+/* blures end of the preview*/
+.markdown-embed::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* how much of the bottom should be blured */
+    background: linear-gradient(transparent, var(--background-secondary));
+    pointer-events: none; 
+}
+
+/* removes the bold effect from the text */
+.markdown-embed .markdown-rendered {
+    font-weight: 400 !important;
+}
+
+.markdown-embed .markdown-rendered h1,
+.markdown-embed .markdown-rendered h2,
+.markdown-embed .markdown-rendered h3,
+.markdown-embed .markdown-rendered h4,
+.markdown-embed .markdown-rendered p,
+.markdown-embed .markdown-rendered li {
+    font-weight: 400 !important;
+}
+
+.markdown-embed-title {
+    font-weight: 400 !important;
+}
