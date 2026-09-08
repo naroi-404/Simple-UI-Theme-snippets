@@ -1,0 +1,15 @@
+{
+    "name": "Bordeaux Theme",
+    "colors": {
+    "--color-focus-round": "#9D0528",
+        "--color-short-round": "#FA5D82",
+        "--color-long-round": "#FB89A4",
+        "--color-background": "#450212",
+        "--color-background-light": "#9D0528",
+        "--color-background-lightest": "#FEE6EB",
+        "--color-foreground": "#FFFFFF",
+        "--color-foreground-darker": "#FFFFFF",
+        "--color-foreground-darkest": "#FFFFFF",
+        "--color-accent": "#C90634"
+}
+}
