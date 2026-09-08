@@ -1,2 +1,2 @@
 # Small-projects
-Reporitory for all kind of projects
+Repository for all kind of projects
